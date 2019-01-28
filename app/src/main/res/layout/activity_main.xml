@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎使用迷你抖音!我是有底线的。"
+        android:textColor="#f4f1f1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+
+    <Button
+        android:id="@+id/btn_s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/solution_2_c2"
+
+        android:onClick="Solution2C2"
+        app:layout_constraintBottom_toTopOf="@id/tv"
+    />
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_s1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="16dp"-->
+        <!--android:text="@string/solution_2_c1"-->
+
+        <!--android:onClick="Solution2C1"-->
+        <!--app:layout_constraintBottom_toTopOf="@id/btn_s2"-->
+    <!--/>-->
+
+    <Button
+        android:id="@+id/btn_s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/solution_2_c3"
+
+        app:layout_constraintBottom_toTopOf="@id/btn_s2"
+        android:onClick="Solution2C3"
+        />
+
+    <Button
+        android:id="@+id/btn_s4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/solution_2_c4"
+
+        app:layout_constraintBottom_toTopOf="@id/btn_s3"
+        android:onClick="Solution2C4"
+        />
+
+</android.support.constraint.ConstraintLayout>

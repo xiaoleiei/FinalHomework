@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">minidouyin </string>
+    <string name="request_data">请求数据图片</string>
+    <string name="requesting">请求...</string>
+    <string name="title_activity_record_video">RecordVideoActivity</string>
+    <string name="solution_2_c1">抓取小图片</string>
+    <string name="solution_2_c2">上传封面和视频</string>
+    <string name="solution_2_c3">拍摄</string>
+    <string name="solution_2_c4">获取拍摄界面</string>
+    <string name="select_an_image">选择封面</string>
+    <string name="select_a_video">选择一个录制好的视频</string>
+    <string name="post_it">上传!</string>
+    <string name="refresh_feed">获取视频</string>
+    <string name="success_try_refresh">成功，点击再次上传!</string>
+</resources>
